@@ -1,0 +1,20 @@
+import matplotlib.pyplot as plt
+
+import numpy as np
+
+#plot 1:
+
+x = np.array([0, 3, 4, 6, 8])
+y = np.array([0,30,26,45,18])
+plt.subplot(1, 2, 1) #一行，兩列，第一個圖表
+plt.plot(x,y)
+
+#plot 2:
+
+x = np.array([0, 5, 7, 11, 13])
+y = np.array([0,34,17,57,16])
+plt.subplot(1, 2, 2) #一行，兩列，第二個圖表
+
+plt.plot(x,y)
+
+plt.show()
